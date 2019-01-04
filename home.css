@@ -1,0 +1,82 @@
+.header {
+    border-bottom: black 20px solid;
+    background: #DCDCDC;
+    margin-left: 10px;
+    margin-right: 10px
+}
+#yourmom{
+    display: inline-block;
+}
+
+.button{
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    color: #003366;
+    text-align: center;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.button:hover{
+    background-color: grey;
+}
+ol li a{
+    text-decoration: none;
+    color: #003366;
+}
+.title{
+    padding: 18px;
+}
+
+span{
+    color: #003366;
+}
+.mission{
+    height: 400px;
+    width: 50%;
+    text-align:center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+}
+
+.middle-break{
+    text-align: center;
+    border-top: black 20px solid;
+    background-color: 	#DCDCDC;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#box{
+    float: left;
+    border: black 2px solid;
+    margin: 2cm;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+.box{
+    float: right;
+    border: black 2px solid;
+    margin: 2cm;
+    width: 500px;
+    display:block;
+    text-align: center;
+}
+
+.img{
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p{
+    font-size: 16px;
+}
