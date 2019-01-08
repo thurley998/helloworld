@@ -1,5 +1,5 @@
 .header {
-    border-bottom: #536adf 20px solid;
+    border-bottom: #3c457d 20px solid;
     background: #e6e8f4;
     margin-left: 10px;
     margin-right: 10px;
@@ -13,7 +13,6 @@
 
 .button{
     background-color: white;
-    display: inline-block;
     padding: 20px;
     color: black;
     text-align: center;
@@ -76,7 +75,7 @@ span{
 
 img{
     height: 100px;
-    width: 50px;
+    width: 100px;
 }
 
 p{
@@ -85,4 +84,8 @@ p{
 
 .italic{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#img{
+    display: inline;
 }
