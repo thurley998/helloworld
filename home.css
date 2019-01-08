@@ -2,7 +2,10 @@
     border-bottom: #536adf 20px solid;
     background: #e6e8f4;
     margin-left: 10px;
-    margin-right: 10px
+    margin-right: 10px;
+    /* display:fixed; if you want it to follow where you scroll */
+    /* display: absolute;  */
+    /* display:sticky; */
 }
 #better{
     display: inline-block;
@@ -79,4 +82,8 @@ span{
 
 p{
     font-size: 16px;
+}
+
+.italic{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
