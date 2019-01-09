@@ -1,18 +1,15 @@
 <html>
 <head>
+    <script src="dropdown.js"></script>
     <title>Space Clicker</title>
 </head>
 
 <body>
-    <script type="text/javascript">
-
-    var clicks = 0;
-    function hello() {
-        clicks += 1;
-        document.getElementById("clicks").innerHTML = clicks;
-    };
-    </script>
-    <button onclick="hello()" type="submit" formmethod="POST" action="gs://comunity-000.appspot.com/comunity.txt">Click me</button>
-    <p>Clicks: <a id="clicks">0</a></p>
+    <button onclick="countClicks()" >
+        Click!
+     </button>
+     <div>
+       <p id="showCounts"></p>
+     </div>
 
 </body></html>
