@@ -1,15 +1,30 @@
+
 <html>
 <head>
-    <script src="dropdown.js"></script>
     <title>Space Clicker</title>
 </head>
 
 <body>
-    <button onclick="countClicks()" >
-        Click!
-     </button>
-     <div>
-       <p id="showCounts"></p>
-     </div>
+    <script type="text/javascript">
 
+    var clicks = 0;
+    function hello() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onclick="hello()">Click me</button>
+    <p>Clicks: <a id="clicks">0</a></p>
+    <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyBHtl12oAn5HCnl9jIeWkN6fOyMyiwkqIo",
+          authDomain: "comunity-000.firebaseapp.com",
+          databaseURL: "https://comunity-000.firebaseio.com",
+          projectId: "comunity-000",
+          storageBucket: "comunity-000.appspot.com",
+          messagingSenderId: "211588279720"
+        };
+        firebase.initializeApp(config);
+      </script>
 </body></html>
