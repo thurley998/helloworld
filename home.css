@@ -1,4 +1,4 @@
-.header {
+#header {
     border-bottom: #3c457d 20px solid;
     background: #e6e8f4;
     margin-left: 10px;
@@ -36,7 +36,7 @@ ol li a{
 span{
     color: #003366;
 }
-.mission{
+#mission{
     height: 400px;
     width: 50%;
     text-align:center;
@@ -47,7 +47,7 @@ span{
     padding: 10px;
 }
 
-.middle-break{
+#middle-break{
     text-align: center;
     border-top: #3c457d 20px solid;
     background-color: 	#e6e8f4;
