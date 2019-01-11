@@ -16,7 +16,6 @@
     padding: 20px;
     color: black;
     text-align: center;
-    float: none;
 }
 
 ol {
@@ -37,59 +36,6 @@ ol li a{
 span{
     color: #003366;
 }
-#mission{
-    height: 400px;
-    width: 50%;
-    text-align:center;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #813772;
-    color: #FFFFFF;
-    padding: 10px;
-}
-
-#middle-break{
-    text-align: center;
-    border-top: #062F4F 20px solid;
-    background-color: 	#e6e8f4;
-    height: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#box{
-    float: left;
-    border: black 2px solid;
-    margin: 2cm;
-    width: 300px;
-    display: block;
-    text-align: center;
-}
-.box{
-    float: right;
-    border: black 2px solid;
-    margin: 2cm;
-    width: 500px;
-    display:block;
-    text-align: center;
-}
-
-img{
-    height: 100px;
-    width: 100px;
-}
-
-p{
-    font-size: 16px;
-}
-
-.italic{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#img{
-    display: inline;
-}
 
 .dropbtn {
     background-color: #062F4F;
@@ -101,7 +47,6 @@ p{
   }
   
   .dropdown {
-      margin-right: 50px;
     float:right;
     position: relative;
     display: inline-block;
@@ -186,3 +131,12 @@ input[type=text], input[type=password] {
     float: right;
     padding-top: 16px;
   }
+  
+  img{
+    height: 100px;
+    width: 100px;
+}
+
+#img{
+    display: inline;
+}
