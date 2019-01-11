@@ -1,5 +1,5 @@
 #header {
-    border-bottom: #3c457d 20px solid;
+    border-bottom: #062F4F 20px solid;
     background: #e6e8f4;
     margin-left: 10px;
     margin-right: 10px;
@@ -42,14 +42,14 @@ span{
     text-align:center;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #b1bbec;
-    color: black;
+    background-color: #813772;
+    color: #FFFFFF;
     padding: 10px;
 }
 
 #middle-break{
     text-align: center;
-    border-top: #3c457d 20px solid;
+    border-top: #062F4F 20px solid;
     background-color: 	#e6e8f4;
     height: 100px;
     margin-left: 10px;
@@ -91,7 +91,7 @@ p{
 }
 
 .dropbtn {
-    background-color: #3c457d;
+    background-color: #062F4F;
     color: white;
     padding: 16px;
     font-size: 16px;
