@@ -16,6 +16,7 @@
     padding: 20px;
     color: black;
     text-align: center;
+    float: none;
 }
 
 ol {
@@ -100,6 +101,7 @@ p{
   }
   
   .dropdown {
+      margin-right: 50px;
     float:right;
     position: relative;
     display: inline-block;
