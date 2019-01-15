@@ -140,3 +140,7 @@ input[type=text], input[type=password] {
 #img{
     display: inline;
 }
+
+*{
+  font-family: Helvetica, sans-serif;
+}

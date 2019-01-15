@@ -186,3 +186,7 @@ input[type=text], input[type=password] {
     float: right;
     padding-top: 16px;
   }
+
+  * {
+    font-family: Helvetica, sans-serif;
+  }
